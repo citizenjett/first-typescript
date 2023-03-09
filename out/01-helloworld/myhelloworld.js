@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+console.log("Hello World");
+console.log("It's sunny in Florida" + "   Gotta love St. Augustine");
+var found = true;
+var grade = 88.6;
+var firstName = "Eddie";
+var lastName = 'Vedder';
+console.log(found);
+console.log("The grade is  " + grade);
+console.log("Hi " + firstName + " " + lastName);
+console.log("Hi ".concat(firstName, " ").concat(lastName));
