@@ -5,7 +5,7 @@ var CricketCoach = /** @class */ (function () {
     function CricketCoach() {
     }
     CricketCoach.prototype.getDailyWorkout = function () {
-        return "Practice your shit";
+        return "Move to Roatan";
     };
     return CricketCoach;
 }());

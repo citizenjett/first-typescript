@@ -5,7 +5,7 @@ var GolfCoach = /** @class */ (function () {
     function GolfCoach() {
     }
     GolfCoach.prototype.getDailyWorkout = function () {
-        return "Hit 100 balls at the golf range";
+        return "Move to St. Augustine";
     };
     return GolfCoach;
 }());
