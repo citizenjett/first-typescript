@@ -1,0 +1,18 @@
+import { Coach } from "./Coach";
+import { CricketCoach } from "./CricketCoach";
+import { GolfCoach } from "./GolfCoach";
+
+let myCricketCoach = new CricketCoach();
+let myGolfCoach = new GolfCoach();
+
+// declare an array for coaches..initially empty
+let theCoaches: Coach[] = [];
+
+theCoaches.push(myCricketCoach);
+theCoaches.push(myGolfCoach);
+
+for (let temp of theCoaches) {
+    console.log(temp.getDailyWorkout());
+}
+ 
+
